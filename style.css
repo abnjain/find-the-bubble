@@ -42,7 +42,7 @@ main{
 #ptop{
     display: flex;
     color: #fff;
-    padding: 0px 30%;
+    padding: 0px 25%;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -54,8 +54,6 @@ main{
     display: flex;
     align-items: center;
     font-size: xx-large;
-    width: 10%;
-
     gap: 20px;
 }
 
@@ -70,8 +68,8 @@ main{
 #pbtm{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     width: 100%;
     height: calc(100% - 100px); 
