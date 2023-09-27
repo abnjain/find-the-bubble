@@ -55,6 +55,7 @@ main{
     align-items: center;
     font-size: xx-large;
     width: 10%;
+
     gap: 20px;
 }
 
@@ -93,7 +94,7 @@ main{
     background-color: rgb(3, 96, 3);
 }
 
-@media screen and (min-width:478px) {
+@media screen and (max-width:478px) {
     header{
         display: flex;
         align-items: center;
@@ -157,5 +158,4 @@ main{
         color: rgb(255, 255, 255);
         background-color: rgb(51, 158, 51);
     }
-
 }
