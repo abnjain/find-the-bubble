@@ -55,7 +55,6 @@ main{
     align-items: center;
     font-size: xx-large;
     width: 10%;
-    width: 10%;
     gap: 20px;
 }
 
@@ -92,4 +91,71 @@ main{
 .bubble:hover{
     cursor: pointer;
     background-color: rgb(3, 96, 3);
+}
+
+@media screen and (min-width:478px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    header h1{
+        font-size: 2.7rem;    
+    }
+    #panel{
+        overflow: hidden;
+        width: 92%;
+        height: 88%;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    #ptop{
+        overflow: hidden;
+        display: flex;
+        color: #fff;
+        padding: 0px 18%;
+        width: 100%;
+        height: 110px;
+        background-color: rgb(78, 142, 78);
+    }
+    .elem{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.7rem;
+        gap: 2px;
+    }
+    .box{
+        padding: 1px 20px;
+        color: rgb(30, 153, 38);
+        font-size: 2.5rem;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #pbtm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 10px;
+        width: 100%;
+        height: calc(100% - 110px); 
+        padding: 15px; 
+        margin-top: 4px;
+    }
+    .bubble{
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        border-radius: 50%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(51, 158, 51);
+    }
+
 }
