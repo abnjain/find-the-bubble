@@ -92,7 +92,7 @@ main{
     background-color: rgb(3, 96, 3);
 }
 
-@media screen and (max-width:478px) {
+@media screen and (max-width:378px) {
     header{
         display: flex;
         align-items: center;
