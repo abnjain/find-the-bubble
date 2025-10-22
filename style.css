@@ -92,6 +92,26 @@ main{
     background-color: rgb(3, 96, 3);
 }
 
+.foot{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(50, 50, 50);
+}
+.foot a {
+    text-decoration: none;
+    color: rgb(30, 100, 30);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width:378px) {
     header{
         display: flex;
